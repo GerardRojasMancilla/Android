@@ -45,7 +45,7 @@ Paso 1: La Capa domain -> Paso 2: La Capa data -> Paso 3: La Capa presentation -
 
 Núcleo de tu app y no debe depender de nada externo.Estas data class definen la estructura exacta de la información con la que va a trabajar la lógica interna de tu aplicación
 
-##**DATA: model->remote->local->repository->di**
+## **DATA: model->remote->local->repository->di**
 
 **remote (Remoto / Red):** 
 
