@@ -17,7 +17,7 @@ Room: Es la base de datos local de Android (sobre SQLite). Se usa si te piden gu
 
 Se coloca dentro de AndroidManifest.xml
 
-Permisos de internet: <uses-permission android:name="android.permission.INTERNET" />
+Permisos de internet:( <uses-permission android:name="android.permission.INTERNET" /> )
 
 debe ponerse antes de la etiqueta <application .....>
 
