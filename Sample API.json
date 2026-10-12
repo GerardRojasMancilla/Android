@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "name": "Ají de Gallina",
+    "description": "Plato típico peruano a base de ají amarillo, pollo desmenuzado, leche y pan.",
+    "poster": "https://www.themealdb.com/images/media/meals/aji.jpg"
+  },
+  {
+    "id": "2",
+    "name": "Ceviche Peruano",
+    "description": "Pescado fresco marinando en jugo de limón peruano, cebolla roja y acompañado de camote.",
+    "poster": "https://www.themealdb.com/images/media/meals/ceviche.jpg"
+  },
+  {
+    "id": "3",
+    "name": "Lomo Saltado",
+    "description": "Trocitos de carne de res salteados al wok con cebolla, tomates, papas fritas y arroz.",
+    "poster": "https://www.themealdb.com/images/media/meals/lomo.jpg"
+  },
+  {
+    "id": "4",
+    "name": "Causa Rellena",
+    "description": "Pastel frío de papa amarilla prensada sazonada con ají amarillo y relleno de pollo.",
+    "poster": "https://www.themealdb.com/images/media/meals/causa.jpg"
+  },
+  {
+    "id": "5",
+    "name": "Anticuchos de Corazón",
+    "description": "Brochetas de corazón de res marinadas en ají panca y especias, asadas a la parrilla.",
+    "poster": "https://www.themealdb.com/images/media/meals/anticuchos.jpg"
+  },
+  {
+    "id": "6",
+    "name": "Arroz con Pollo",
+    "description": "Arroz verde cocinado con culantro, acompañado de presas de pollo y salsa criolla.",
+    "poster": "https://www.themealdb.com/images/media/meals/arrozconpollo.jpg"
+  },
+  {
+    "id": "7",
+    "name": "Seco de Res",
+    "description": "Guiso de carne de res tierno cocinado con culantro, zapallo locuche y chicha de jora.",
+    "poster": "https://www.themealdb.com/images/media/meals/seco.jpg"
+  },
+  {
+    "id": "8",
+    "name": "Papa a la Huancaína",
+    "description": "Papas sancochadas bañadas en una crema suave de queso fresco, galleta y ají amarillo.",
+    "poster": "https://www.themealdb.com/images/media/meals/huancaina.jpg"
+  },
+  {
+    "id": "9",
+    "name": "Carapulcra",
+    "description": "Guiso tradicional a base de papa seca sancochada, carne de cerdo y maní.",
+    "poster": "https://www.themealdb.com/images/media/meals/carapulcra.jpg"
+  },
+  {
+    "id": "10",
+    "name": "Tacu Tacu",
+    "description": "Mezcla dorada de arroz cocido y frijoles, acompañada de un jugoso bistec frito.",
+    "poster": "https://www.themealdb.com/images/media/meals/tacutacu.jpg"
+  }
+]
