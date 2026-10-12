@@ -63,7 +63,13 @@ Núcleo de tu app y no debe depender de nada externo.Estas data class definen la
 
 * NameResponse: Al consumir servicios web con Retrofit (ideal para generar automáticamente con plugins como **JSON to Kotlin**)
 * NameEntity: Al almacenar información de manera persistente en el dispositivo con anotaciones como @Entity
-* NameMapper: Para mantener desacoplada la capa de red/base de datos de la lógica de negocio pura.
+* NameMapper: Para mantener desacoplada la capa de red/base de datos de la lógica de negocio pura, sirve como un puente traductor para transformar objetos de la capa externa (como la respuesta de la API MealResponse) en el modelo puro y limpio que exige tu negocio (Meal).
+
+-object MealMapper: En Kotlin, usar un object crea un Singleton (un objeto único que no necesita ser instanciado con val mapper = MealMapper(), sino que lo llamas directamente como MealMapper.toMeal(...)).
+
+-toMeal(...): Toma los datos que vinieron de internet (que pueden venir nulos o con nombres extraños y seguros con el operador ?: "") y los convierte al modelo limpio de la capa domain.
+
+ 
 
 * La anotación @SerializedName actúa como un puente o traductor: le dice a Gson: "Cuando leas el campo idCategory del JSON, guárdalo dentro de la variable id de Kotlin".
 
