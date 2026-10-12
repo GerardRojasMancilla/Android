@@ -13,7 +13,7 @@ Navigation Compose: Permite gestionar la navegación entre diferentes pantallas 
 ViewModel: Mantiene los datos de la pantalla seguros y vivos aunque el usuario gire el teléfono o la actividad se reinicie.
 Room: Es la base de datos local de Android (sobre SQLite). Se usa si te piden guardar información de forma local en el dispositivo (modo offline)
 
-**CONFIGURAR PERMISOS**
+**CONFIGURAR PERMISOS (manifests)**
 
 Se coloca dentro de AndroidManifest.xml
 
