@@ -21,7 +21,7 @@ Permisos de internet:( uses-permission android:name="android.permission.INTERNET
 
 debe ponerse antes de la etiqueta <application .....>
 
-**CONFIGURAR LIBRERIAS**
+**CONFIGURAR LIBRERIAS en libs.versions.toml**
 
 [versions]
 
@@ -69,12 +69,18 @@ kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "ko
 
 ksp = { id = "com.google.devtools.ksp", version.ref="ksp"}
 
+
 **Build.gradle.kts (Module :app)**
 
+
 plugins{
+
     alias(libs.plugins.android.application)
+
     alias(libs.plugins.kotlin.android)
+    
     alias(libs.plugins.kotlin.compose)
+    
     alias(libs.plugins.ksp)
 }
 
@@ -101,8 +107,12 @@ dependencies{
 
 **build.gradle.kts (Project: TuProyecto)**
 plugins {
+
     alias(libs.plugins.android.application) apply false
+    
     alias(libs.plugins.kotlin.android) apply false
+    
     alias(libs.plugins.kotlin.compose) apply false
+    
     alias(libs.plugins.ksp) apply false // <-- ESTO ES LO NUEVO
 }
