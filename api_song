@@ -1,0 +1,225 @@
+{
+  "count": 20,
+  "results": [
+    {
+      "id": 1,
+      "title": "Bohemian Rhapsody",
+      "artist": "Queen",
+      "album": "A Night at the Opera",
+      "year": 1975,
+      "duration": 355,
+      "genre": "Rock",
+      "rating": 4.9,
+      "image": "https://i1.sndcdn.com/artworks-000116795481-6fmihq-t500x500.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Shape of You",
+      "artist": "Ed Sheeran",
+      "album": "÷",
+      "year": 2017,
+      "duration": 233,
+      "genre": "Pop",
+      "rating": 4.4,
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/45/Divide_cover.png"
+    },
+    {
+      "id": 3,
+      "title": "Billie Jean",
+      "artist": "Michael Jackson",
+      "album": "Thriller",
+      "year": 1982,
+      "duration": 294,
+      "genre": "Pop",
+      "rating": 4.8,
+      "image": "https://i1.sndcdn.com/artworks-000078507256-het7tk-t500x500.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Smells Like Teen Spirit",
+      "artist": "Nirvana",
+      "album": "Nevermind",
+      "year": 1991,
+      "duration": 301,
+      "genre": "Grunge",
+      "rating": 4.7,
+      "image": "https://i1.sndcdn.com/artworks-000049770135-wri7xu-t500x500.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Someone Like You",
+      "artist": "Adele",
+      "album": "21",
+      "year": 2011,
+      "duration": 285,
+      "genre": "Soul",
+      "rating": 4.6,
+      "image": "https://i1.sndcdn.com/artworks-000074073161-kmgoqv-t500x500.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Hotel California",
+      "artist": "Eagles",
+      "album": "Hotel California",
+      "year": 1976,
+      "duration": 391,
+      "genre": "Rock",
+      "rating": 4.9,
+      "image": "https://i1.sndcdn.com/artworks-NHQz2cZap0y8IO8H-g1xxpw-t500x500.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Imagine",
+      "artist": "John Lennon",
+      "album": "Imagine",
+      "year": 1971,
+      "duration": 183,
+      "genre": "Rock",
+      "rating": 4.8,
+      "image": "https://i1.sndcdn.com/artworks-000081989828-qzlmpu-t500x500.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Hey Jude",
+      "artist": "The Beatles",
+      "album": "Hey Jude",
+      "year": 1968,
+      "duration": 431,
+      "genre": "Rock",
+      "rating": 4.7,
+      "image": "https://i1.sndcdn.com/artworks-aNZ6OMP4eiVAorJy-PLyf8Q-t500x500.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Stairway to Heaven",
+      "artist": "Led Zeppelin",
+      "album": "Led Zeppelin IV",
+      "year": 1971,
+      "duration": 482,
+      "genre": "Rock",
+      "rating": 4.9,
+      "image": "https://i1.sndcdn.com/artworks-000112853609-h2qmtj-t500x500.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Shake It Off",
+      "artist": "Taylor Swift",
+      "album": "1989",
+      "year": 2014,
+      "duration": 242,
+      "genre": "Pop",
+      "rating": 4.3,
+      "image": "https://i1.sndcdn.com/artworks-rc08qSRQb5Qd-0-t500x500.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Rolling in the Deep",
+      "artist": "Adele",
+      "album": "21",
+      "year": 2010,
+      "duration": 228,
+      "genre": "Soul",
+      "rating": 4.6,
+      "image": "https://i1.sndcdn.com/artworks-000102426886-jjbupk-t500x500.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Lose Yourself",
+      "artist": "Eminem",
+      "album": "8 Mile",
+      "year": 2002,
+      "duration": 326,
+      "genre": "Hip-Hop",
+      "rating": 4.8,
+      "image": "https://i1.sndcdn.com/artworks-4OjKnaU9kiDL-0-t500x500.jpg"
+    },
+    {
+      "id": 13,
+      "title": "All of Me",
+      "artist": "John Legend",
+      "album": "Love in the Future",
+      "year": 2013,
+      "duration": 269,
+      "genre": "R&B",
+      "rating": 4.4,
+      "image": "https://i1.sndcdn.com/artworks-000238393586-nq8732-t500x500.jpg"
+    },
+    {
+      "id": 14,
+      "title": "Uptown Funk",
+      "artist": "Mark Ronson ft. Bruno Mars",
+      "album": "Uptown Special",
+      "year": 2014,
+      "duration": 269,
+      "genre": "Funk",
+      "rating": 4.5,
+      "image": "https://i1.sndcdn.com/artworks-000116143840-x8h9if-t500x500.jpg"
+    },
+    {
+      "id": 15,
+      "title": "Thinking Out Loud",
+      "artist": "Ed Sheeran",
+      "album": "x",
+      "year": 2014,
+      "duration": 281,
+      "genre": "Pop",
+      "rating": 4.7,
+      "image": "https://i1.sndcdn.com/artworks-000100262080-jfn9k6-t500x500.jpg"
+    },
+    {
+      "id": 16,
+      "title": "Respect",
+      "artist": "Aretha Franklin",
+      "album": "I Never Loved a Man the Way I Love You",
+      "year": 1967,
+      "duration": 149,
+      "genre": "Soul",
+      "rating": 4.9,
+      "image": "https://i1.sndcdn.com/artworks-000242764101-4kmz6p-t500x500.jpg"
+    },
+    {
+      "id": 17,
+      "title": "Sweet Child o' Mine",
+      "artist": "Guns N' Roses",
+      "album": "Appetite for Destruction",
+      "year": 1987,
+      "duration": 356,
+      "genre": "Hard Rock",
+      "rating": 4.8,
+      "image": "https://i1.sndcdn.com/artworks-reoT07Qil0wp-0-t500x500.jpg"
+    },
+    {
+      "id": 18,
+      "title": "Hallelujah",
+      "artist": "Leonard Cohen",
+      "album": "Various Positions",
+      "year": 1984,
+      "duration": 283,
+      "genre": "Folk",
+      "rating": 4.7,
+      "image": "https://i1.sndcdn.com/artworks-000022091718-9m0jtj-t500x500.jpg"
+    },
+    {
+      "id": 19,
+      "title": "Thunderstruck",
+      "artist": "AC/DC",
+      "album": "The Razors Edge",
+      "year": 1990,
+      "duration": 292,
+      "genre": "Hard Rock",
+      "rating": 4.6,
+      "image": "https://i1.sndcdn.com/artworks-000084871237-w4wqxv-t500x500.jpg"
+    },
+    {
+      "id": 20,
+      "title": "My Heart Will Go On",
+      "artist": "Celine Dion",
+      "album": "Let's Talk About Love",
+      "year": 1997,
+      "duration": 279,
+      "genre": "Pop",
+      "rating": 4.9,
+      "image": "https://i1.sndcdn.com/artworks-000187503554-ggtd39-t500x500.jpg"
+    }
+  ]
+}
