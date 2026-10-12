@@ -36,3 +36,42 @@ Esta carpeta viene precreada por Android Studio dentro de la capa de presentaci�
 
 ¿Qué contiene?: Los estilos visuales de tu aplicación en Jetpack Compose, como los colores 
 (Color.kt), las tipografías (Type.kt) y el tema general (Theme.kt) para mantener un diseño coherente (Material Design).
+
+
+**Development**
+Paso 1: La Capa domain -> Paso 2: La Capa data -> Paso 3: La Capa presentation -> Paso 4: La Capa de Interfaz / Pantallas
+
+**Domain**
+
+Núcleo de tu app y no debe depender de nada externo.Estas data class definen la estructura exacta de la información con la que va a trabajar la lógica interna de tu aplicación
+
+**DATA: model->remote->local->repository->di**
+
+remote (Remoto / Red): 
+
+* consumo de APIs
+* La interfaz del Servicio Web (WebService con las anotaciones de Retrofit como @GET) y el objeto cliente que instancia Retrofit con Gson.
+
+local (Local / Base de datos)
+
+* Aquí va todo lo relacionado con Room si tu aplicación guarda información dentro del celular.
+* Las Entidades con la anotación @Entity, los DAO (@Dao) con las consultas SQL (@Query, @Insert, etc.) y la clase abstracta de la base de datos (RoomDatabase).
+
+model (Modelos DTO):
+
+* clases de datos que mapean exactamente la respuesta cruda que viene del servidor (JSON),separándolas de los modelos limpios del domain. (Aquí es donde usas el JSON to Kotlin).
+
+repository (Implementación del Repositorio):
+
+* Aquí creas la clase que implementa la interfaz que dejaste en el domain (por ejemplo, MealRepositoryImpl).
+* Esta clase actúa como un "puente inteligente": decide si va a buscar los datos a internet usando el remote (Retrofit) o a la memoria interna usando el local (Room).
+ 
+di:
+
+* sirve para centralizar la creación de instancias (como el cliente de Retrofit o la base de datos de Room) para que se compartan en toda la aplicación.
+
+**PRESENTATION**
+
+
+
+
