@@ -64,7 +64,8 @@ model (Modelos DTO):
 * NameResponse: Al consumir servicios web con Retrofit (ideal para generar automáticamente con plugins como **JSON to Kotlin**)
 * NameEntity: Al almacenar información de manera persistente en el dispositivo con anotaciones como @Entity
 * NameMapper: Para mantener desacoplada la capa de red/base de datos de la lógica de negocio pura.
-* 
+
+* La anotación @SerializedName actúa como un puente o traductor: le dice a Gson: "Cuando leas el campo idCategory del JSON, guárdalo dentro de la variable id de Kotlin".
 
 
 repository (Implementación del Repositorio):
