@@ -24,6 +24,7 @@ debe ponerse antes de la etiqueta <application .....>
 **CONFIGURAR LIBRERIAS**
 
 [versions]
+
 retrofit = "2.11.0" y coilCompose = "3.1.0" : manejar peticiones de red y la carga de imágenes
 
 roomRuntime = "2.7.1" y ksp = "2.0.21-1.0.28": Controlan la base de datos local
