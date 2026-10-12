@@ -14,11 +14,15 @@ ViewModel: Mantiene los datos de la pantalla seguros y vivos aunque el usuario g
 Room: Es la base de datos local de Android (sobre SQLite). Se usa si te piden guardar información de forma local en el dispositivo (modo offline)
 
 **CONFIGURAR PERMISOS**
+
 Se coloca dentro de AndroidManifest.xml
+
 Permisos de internet: <uses-permission android:name="android.permission.INTERNET" />
+
 debe ponerse antes de la etiqueta <application .....>
 
 **CONFIGURAR LIBRERIAS**
+
 [versions]
 retrofit = "2.11.0" y coilCompose = "3.1.0" : manejar peticiones de red y la carga de imágenes
 
@@ -27,6 +31,7 @@ roomRuntime = "2.7.1" y ksp = "2.0.21-1.0.28": Controlan la base de datos local
 navigationCompose = "2.8.9" y lifecycleViewmodelCompose = "2.8.7": Fundamentales para moverte entre pantallas y retener datos en tus ViewModels.
 
 [libraries]
+
 * Rest:
 
 retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit"}
