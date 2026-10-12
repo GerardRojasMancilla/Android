@@ -61,6 +61,12 @@ model (Modelos DTO):
 
 * clases de datos que mapean exactamente la respuesta cruda que viene del servidor (JSON),separándolas de los modelos limpios del domain. (Aquí es donde usas el JSON to Kotlin).
 
+* NameResponse: Al consumir servicios web con Retrofit (ideal para generar automáticamente con plugins como **JSON to Kotlin**)
+* NameEntity: Al almacenar información de manera persistente en el dispositivo con anotaciones como @Entity
+* NameMapper: Para mantener desacoplada la capa de red/base de datos de la lógica de negocio pura.
+* 
+
+
 repository (Implementación del Repositorio):
 
 * Aquí creas la clase que implementa la interfaz que dejaste en el domain (por ejemplo, MealRepositoryImpl).
